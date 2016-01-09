@@ -15,6 +15,7 @@
 		AF1FB85D1C419B5600D60807 /* UIViewController-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB85C1C419B5600D60807 /* UIViewController-Extension.swift */; };
 		AF1FB85F1C419D8E00D60807 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB85E1C419D8E00D60807 /* Strings.swift */; };
 		AF1FB8631C41A01B00D60807 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB8621C41A01B00D60807 /* SearchResultCell.swift */; };
+		AF1FB8671C41ADDB00D60807 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB8661C41ADDB00D60807 /* README.md */; };
 		AF8C0A871C417C59009BAB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C0A861C417C59009BAB90 /* AppDelegate.swift */; };
 		AF8C0A891C417C59009BAB90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C0A881C417C59009BAB90 /* ViewController.swift */; };
 		AF8C0A8C1C417C59009BAB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8C0A8A1C417C59009BAB90 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		AF1FB85C1C419B5600D60807 /* UIViewController-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController-Extension.swift"; sourceTree = "<group>"; };
 		AF1FB85E1C419D8E00D60807 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		AF1FB8621C41A01B00D60807 /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		AF1FB8661C41ADDB00D60807 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = TabBarReplacement/README.md; sourceTree = "<group>"; };
 		AF8C0A831C417C59009BAB90 /* TabBarReplacement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarReplacement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8C0A861C417C59009BAB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF8C0A881C417C59009BAB90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		AF8C0A7A1C417C59009BAB90 = {
 			isa = PBXGroup;
 			children = (
+				AF1FB8661C41ADDB00D60807 /* README.md */,
 				AF8C0A851C417C59009BAB90 /* TabBarReplacement */,
 				AF8C0A841C417C59009BAB90 /* Products */,
 			);
@@ -185,6 +188,7 @@
 				AF1FB85F1C419D8E00D60807 /* Strings.swift in Sources */,
 				AF1FB84F1C4192EE00D60807 /* SearchViewController.swift in Sources */,
 				AF1FB8631C41A01B00D60807 /* SearchResultCell.swift in Sources */,
+				AF1FB8671C41ADDB00D60807 /* README.md in Sources */,
 				AF1FB85D1C419B5600D60807 /* UIViewController-Extension.swift in Sources */,
 				AF8C0A891C417C59009BAB90 /* ViewController.swift in Sources */,
 				AF8C0A9A1C417C89009BAB90 /* PITabBarButton.swift in Sources */,
