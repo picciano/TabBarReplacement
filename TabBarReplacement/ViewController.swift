@@ -8,18 +8,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: PITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.viewControllers = [
+            getViewController(StoryboardIdentifier.ViewController1)!,
+            getViewController(StoryboardIdentifier.ViewController2)!,
+            getViewController(StoryboardIdentifier.ViewController3)!,
+            getViewController(StoryboardIdentifier.ViewController4)!,
+            getViewController(StoryboardIdentifier.ViewController5)!,
+            getViewController(StoryboardIdentifier.ViewController6)!,
+            getViewController(StoryboardIdentifier.ViewController7)!,
+            getViewController(StoryboardIdentifier.ViewController8)!,
+            getViewController(StoryboardIdentifier.SearchViewController)!,
+            getViewController(StoryboardIdentifier.SettingsViewController)!
+        ]
+        
+        self.tabBar.itemSpacing = 60
+        self.tabBar.itemOffset = 160
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
-

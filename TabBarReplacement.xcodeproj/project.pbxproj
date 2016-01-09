@@ -7,19 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1FB84B1C4192A300D60807 /* TabBarReplacement.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = AF1FB8491C4192A300D60807 /* TabBarReplacement.pcvd */; };
+		AF1FB84C1C4192A300D60807 /* TabBarReplacementStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB84A1C4192A300D60807 /* TabBarReplacementStyleKit.swift */; };
+		AF1FB84F1C4192EE00D60807 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB84E1C4192EE00D60807 /* SearchViewController.swift */; };
+		AF1FB8511C4192FF00D60807 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB8501C4192FF00D60807 /* SettingsViewController.swift */; };
+		AF1FB85B1C419B0000D60807 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB85A1C419B0000D60807 /* SearchResultsViewController.swift */; };
+		AF1FB85D1C419B5600D60807 /* UIViewController-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB85C1C419B5600D60807 /* UIViewController-Extension.swift */; };
+		AF1FB85F1C419D8E00D60807 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB85E1C419D8E00D60807 /* Strings.swift */; };
+		AF1FB8631C41A01B00D60807 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FB8621C41A01B00D60807 /* SearchResultCell.swift */; };
 		AF8C0A871C417C59009BAB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C0A861C417C59009BAB90 /* AppDelegate.swift */; };
 		AF8C0A891C417C59009BAB90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C0A881C417C59009BAB90 /* ViewController.swift */; };
 		AF8C0A8C1C417C59009BAB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8C0A8A1C417C59009BAB90 /* Main.storyboard */; };
 		AF8C0A8E1C417C5A009BAB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8C0A8D1C417C5A009BAB90 /* Assets.xcassets */; };
+		AF8C0A981C417C89009BAB90 /* PITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C0A951C417C89009BAB90 /* PITabBarController.swift */; };
+		AF8C0A991C417C89009BAB90 /* PITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C0A961C417C89009BAB90 /* PITabBar.swift */; };
+		AF8C0A9A1C417C89009BAB90 /* PITabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C0A971C417C89009BAB90 /* PITabBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF1FB8491C4192A300D60807 /* TabBarReplacement.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = TabBarReplacement.pcvd; sourceTree = "<group>"; };
+		AF1FB84A1C4192A300D60807 /* TabBarReplacementStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarReplacementStyleKit.swift; sourceTree = "<group>"; };
+		AF1FB84E1C4192EE00D60807 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AF1FB8501C4192FF00D60807 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AF1FB85A1C419B0000D60807 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		AF1FB85C1C419B5600D60807 /* UIViewController-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController-Extension.swift"; sourceTree = "<group>"; };
+		AF1FB85E1C419D8E00D60807 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		AF1FB8621C41A01B00D60807 /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		AF8C0A831C417C59009BAB90 /* TabBarReplacement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarReplacement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8C0A861C417C59009BAB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF8C0A881C417C59009BAB90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF8C0A8B1C417C59009BAB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF8C0A8D1C417C5A009BAB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF8C0A8F1C417C5A009BAB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8C0A951C417C89009BAB90 /* PITabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PITabBarController.swift; sourceTree = "<group>"; };
+		AF8C0A961C417C89009BAB90 /* PITabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PITabBar.swift; sourceTree = "<group>"; };
+		AF8C0A971C417C89009BAB90 /* PITabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PITabBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF1FB84D1C4192AA00D60807 /* Style Kit */ = {
+			isa = PBXGroup;
+			children = (
+				AF1FB8491C4192A300D60807 /* TabBarReplacement.pcvd */,
+				AF1FB84A1C4192A300D60807 /* TabBarReplacementStyleKit.swift */,
+			);
+			name = "Style Kit";
+			sourceTree = "<group>";
+		};
 		AF8C0A7A1C417C59009BAB90 = {
 			isa = PBXGroup;
 			children = (
@@ -53,12 +84,30 @@
 			isa = PBXGroup;
 			children = (
 				AF8C0A861C417C59009BAB90 /* AppDelegate.swift */,
+				AF1FB85E1C419D8E00D60807 /* Strings.swift */,
 				AF8C0A881C417C59009BAB90 /* ViewController.swift */,
+				AF1FB85C1C419B5600D60807 /* UIViewController-Extension.swift */,
+				AF1FB84E1C4192EE00D60807 /* SearchViewController.swift */,
+				AF1FB85A1C419B0000D60807 /* SearchResultsViewController.swift */,
+				AF1FB8621C41A01B00D60807 /* SearchResultCell.swift */,
+				AF1FB8501C4192FF00D60807 /* SettingsViewController.swift */,
 				AF8C0A8A1C417C59009BAB90 /* Main.storyboard */,
+				AF1FB84D1C4192AA00D60807 /* Style Kit */,
+				AFBEA9201C417EBC0063DF79 /* PITabBar */,
 				AF8C0A8D1C417C5A009BAB90 /* Assets.xcassets */,
 				AF8C0A8F1C417C5A009BAB90 /* Info.plist */,
 			);
 			path = TabBarReplacement;
+			sourceTree = "<group>";
+		};
+		AFBEA9201C417EBC0063DF79 /* PITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AF8C0A951C417C89009BAB90 /* PITabBarController.swift */,
+				AF8C0A961C417C89009BAB90 /* PITabBar.swift */,
+				AF8C0A971C417C89009BAB90 /* PITabBarButton.swift */,
+			);
+			name = PITabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1FB84B1C4192A300D60807 /* TabBarReplacement.pcvd in Resources */,
 				AF8C0A8E1C417C5A009BAB90 /* Assets.xcassets in Resources */,
 				AF8C0A8C1C417C59009BAB90 /* Main.storyboard in Resources */,
 			);
@@ -131,8 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF8C0A991C417C89009BAB90 /* PITabBar.swift in Sources */,
+				AF1FB85F1C419D8E00D60807 /* Strings.swift in Sources */,
+				AF1FB84F1C4192EE00D60807 /* SearchViewController.swift in Sources */,
+				AF1FB8631C41A01B00D60807 /* SearchResultCell.swift in Sources */,
+				AF1FB85D1C419B5600D60807 /* UIViewController-Extension.swift in Sources */,
 				AF8C0A891C417C59009BAB90 /* ViewController.swift in Sources */,
+				AF8C0A9A1C417C89009BAB90 /* PITabBarButton.swift in Sources */,
+				AF8C0A981C417C89009BAB90 /* PITabBarController.swift in Sources */,
 				AF8C0A871C417C59009BAB90 /* AppDelegate.swift in Sources */,
+				AF1FB84C1C4192A300D60807 /* TabBarReplacementStyleKit.swift in Sources */,
+				AF1FB85B1C419B0000D60807 /* SearchResultsViewController.swift in Sources */,
+				AF1FB8511C4192FF00D60807 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +300,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.picciano.TabBarReplacement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -252,6 +313,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.picciano.TabBarReplacement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -274,6 +336,7 @@
 				AF8C0A941C417C5A009BAB90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
