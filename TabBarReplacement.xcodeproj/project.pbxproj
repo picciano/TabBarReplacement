@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF8C0A871C417C59009BAB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C0A861C417C59009BAB90 /* AppDelegate.swift */; };
+		AF8C0A891C417C59009BAB90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C0A881C417C59009BAB90 /* ViewController.swift */; };
+		AF8C0A8C1C417C59009BAB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8C0A8A1C417C59009BAB90 /* Main.storyboard */; };
+		AF8C0A8E1C417C5A009BAB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8C0A8D1C417C5A009BAB90 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF8C0A831C417C59009BAB90 /* TabBarReplacement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarReplacement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8C0A861C417C59009BAB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF8C0A881C417C59009BAB90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF8C0A8B1C417C59009BAB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF8C0A8D1C417C5A009BAB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF8C0A8F1C417C5A009BAB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF8C0A801C417C59009BAB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF8C0A7A1C417C59009BAB90 = {
+			isa = PBXGroup;
+			children = (
+				AF8C0A851C417C59009BAB90 /* TabBarReplacement */,
+				AF8C0A841C417C59009BAB90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF8C0A841C417C59009BAB90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8C0A831C417C59009BAB90 /* TabBarReplacement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF8C0A851C417C59009BAB90 /* TabBarReplacement */ = {
+			isa = PBXGroup;
+			children = (
+				AF8C0A861C417C59009BAB90 /* AppDelegate.swift */,
+				AF8C0A881C417C59009BAB90 /* ViewController.swift */,
+				AF8C0A8A1C417C59009BAB90 /* Main.storyboard */,
+				AF8C0A8D1C417C5A009BAB90 /* Assets.xcassets */,
+				AF8C0A8F1C417C5A009BAB90 /* Info.plist */,
+			);
+			path = TabBarReplacement;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF8C0A821C417C59009BAB90 /* TabBarReplacement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8C0A921C417C5A009BAB90 /* Build configuration list for PBXNativeTarget "TabBarReplacement" */;
+			buildPhases = (
+				AF8C0A7F1C417C59009BAB90 /* Sources */,
+				AF8C0A801C417C59009BAB90 /* Frameworks */,
+				AF8C0A811C417C59009BAB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarReplacement;
+			productName = TabBarReplacement;
+			productReference = AF8C0A831C417C59009BAB90 /* TabBarReplacement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF8C0A7B1C417C59009BAB90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anthony Picciano";
+				TargetAttributes = {
+					AF8C0A821C417C59009BAB90 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AF8C0A7E1C417C59009BAB90 /* Build configuration list for PBXProject "TabBarReplacement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF8C0A7A1C417C59009BAB90;
+			productRefGroup = AF8C0A841C417C59009BAB90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF8C0A821C417C59009BAB90 /* TabBarReplacement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF8C0A811C417C59009BAB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8C0A8E1C417C5A009BAB90 /* Assets.xcassets in Resources */,
+				AF8C0A8C1C417C59009BAB90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF8C0A7F1C417C59009BAB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8C0A891C417C59009BAB90 /* ViewController.swift in Sources */,
+				AF8C0A871C417C59009BAB90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF8C0A8A1C417C59009BAB90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8C0A8B1C417C59009BAB90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF8C0A901C417C5A009BAB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AF8C0A911C417C5A009BAB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF8C0A931C417C5A009BAB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TabBarReplacement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.picciano.TabBarReplacement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF8C0A941C417C5A009BAB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TabBarReplacement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.picciano.TabBarReplacement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF8C0A7E1C417C59009BAB90 /* Build configuration list for PBXProject "TabBarReplacement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8C0A901C417C5A009BAB90 /* Debug */,
+				AF8C0A911C417C5A009BAB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8C0A921C417C5A009BAB90 /* Build configuration list for PBXNativeTarget "TabBarReplacement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8C0A931C417C5A009BAB90 /* Debug */,
+				AF8C0A941C417C5A009BAB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF8C0A7B1C417C59009BAB90 /* Project object */;
+}
