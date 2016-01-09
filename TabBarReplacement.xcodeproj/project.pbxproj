@@ -34,6 +34,7 @@
 		AF1FB85E1C419D8E00D60807 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		AF1FB8621C41A01B00D60807 /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		AF1FB8661C41ADDB00D60807 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = TabBarReplacement/README.md; sourceTree = "<group>"; };
+		AF1FB8681C41AE8D00D60807 /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
 		AF8C0A831C417C59009BAB90 /* TabBarReplacement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarReplacement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8C0A861C417C59009BAB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF8C0A881C417C59009BAB90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				AF1FB8661C41ADDB00D60807 /* README.md */,
+				AF1FB8681C41AE8D00D60807 /* ScreenShot.png */,
 				AF8C0A851C417C59009BAB90 /* TabBarReplacement */,
 				AF8C0A841C417C59009BAB90 /* Products */,
 			);
