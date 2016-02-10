@@ -56,7 +56,7 @@ class PITabBarController: UIViewController {
     func tapMenu(recognizer: UITapGestureRecognizer) {
         if tabBarHidden {
             tabBarHidden = false
-            self.setNeedsFocusUpdate()
+            setNeedsFocusUpdate()
         }
     }
     
@@ -118,37 +118,59 @@ class PITabBarController: UIViewController {
     }
     
     private func selectItem(item: UITabBarItem) {
-        let fromViewController = self.selectedViewController
-        let toViewController = _viewControllerDictionary[item]
+        // If toViewController is nil, just return.
+        guard let toViewController = _viewControllerDictionary[item] else { return }
         
+        let fromViewController = selectedViewController
+        
+        // If it's the same view controller, just return.
         if fromViewController == toViewController { return }
         
-        selectedViewController = toViewController
-        
-        fromViewController?.viewWillDisappear(true)
-        toViewController?.viewWillAppear(true)
-        
-        if let view = toViewController?.view {
-            view.frame = _contentView.bounds
-            view.alpha = 0.0
-            _contentView.addSubview(view)
-            _tabBar.setPreferredFocusedView(view)
-            
-            UIView.animateWithDuration(Constants.viewTransitionAnimationDuration, animations: { () -> Void in
-                view.alpha = 1.0
-                fromViewController?.view.alpha = 0.0
-                }, completion: { (completed) -> Void in
-                    fromViewController?.view.removeFromSuperview()
-                    fromViewController?.viewDidDisappear(true)
-            })
+        // If it's a new child view controller, add it to child array.
+        let isNewChildViewController = !childViewControllers.contains(toViewController)
+        if isNewChildViewController {
+            addChildViewController(toViewController)
         }
         
-        toViewController?.viewDidAppear(true)
+        // Set the toViewController.view frame onto the _contentView
+        toViewController.view.frame = self._contentView.bounds
+        
+        // Finish the new child view controller move to parent.
+        if isNewChildViewController {
+            toViewController.didMoveToParentViewController(self)
+        }
+        
+        // Configure for the new tab
+        selectedViewController = toViewController
+        _tabBar.setPreferredFocusedView((toViewController.view)!)
+        
+        /* If the fromViewController is not nil, animate the change */
+        if let fromViewController = fromViewController {
+            UIView.transitionFromView(fromViewController.view, toView: toViewController.view, duration: 0.5, options: [.TransitionCrossDissolve, .AllowUserInteraction, .BeginFromCurrentState], completion: { (finished) -> Void in
+            })
+        } else {    /* The fromViewController is nil, just set the toViewController without animation */
+            // Finish the two view controllers change
+            _contentView.addSubview((toViewController.view)!)
+        }
     }
     
     private var tabBarHidden = false {
         
+        willSet {
+            if newValue {
+                tabBarWillHide(animated: true)
+            } else {
+                tabBarWillShow(animated: true)
+            }
+        }
+        
         didSet {
+            if tabBarHidden {
+                tabBarDidHide(animated: true)
+            } else {
+                tabBarDidShow(animated: true)
+            }
+            
             if oldValue != tabBarHidden {
                 UIView.animateWithDuration(Constants.tabBarAnimationDuration, animations: { () -> Void in
                     self._tabBar.layer.transform = self.tabBarHidden ? CATransform3DMakeTranslation(0.0, Constants.tabBarHeight * -1, 0.0) : CATransform3DIdentity
@@ -159,6 +181,11 @@ class PITabBarController: UIViewController {
         }
         
     }
+    
+    func tabBarWillHide(animated animated: Bool) {}
+    func tabBarWillShow(animated animated: Bool) {}
+    func tabBarDidHide(animated animated: Bool) {}
+    func tabBarDidShow(animated animated: Bool) {}
     
 }
 
