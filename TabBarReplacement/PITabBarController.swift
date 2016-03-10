@@ -37,8 +37,10 @@ class PITabBarController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
-        _tabBar.frame = Constants.initialTabBarFrame
-        _contentView.frame = self.view.bounds
+        if !tabBarHidden {
+            _tabBar.frame = Constants.initialTabBarFrame
+            _contentView.frame = self.view.bounds
+        }
     }
     
     override func viewDidLoad() {
